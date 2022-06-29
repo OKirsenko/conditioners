@@ -1,0 +1,26 @@
+.video__wrap {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    #video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+}
+.video__controls {
+    width: 30px;
+    height: 30px;
+    background: url('../img/pause.svg');
+    background-size: 30px 30px;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 350ms ease-in-out;
+}
+.video__controls.play {
+    background: url('../img/play.svg');
+}
