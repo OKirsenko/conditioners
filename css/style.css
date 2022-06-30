@@ -486,6 +486,70 @@ body {
   font-size: 24px;
 }
 
+.viber__link {
+  display: block;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  -webkit-transform: rotate(-20deg);
+      -ms-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  -webkit-transition: -webkit-transform 500ms ease-in-out;
+  transition: -webkit-transform 500ms ease-in-out;
+  -o-transition: transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
+}
+
+.viber__logo {
+  width: 50px;
+}
+
+.viber__link_right {
+  -webkit-transform: rotate(20deg);
+      -ms-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+.action__wrap {
+  width: 150px;
+  height: 80px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 115px;
+  right: 30px;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.action__descr {
+  text-align: center;
+  font-weight: 700;
+}
+
+.viber_close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -685,6 +749,20 @@ body {
     -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
             transform: translateX(0);
+  }
+
+  .viber__link {
+    bottom: 50px;
+    right: 50px;
+  }
+
+  .viber__logo {
+    width: 70px;
+  }
+
+  .action__wrap {
+    bottom: 130px;
+    right: 130px;
   }
 }
 
