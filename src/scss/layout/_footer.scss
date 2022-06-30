@@ -4,11 +4,14 @@
 .footer__wrap {
     padding-top: 22px;
     padding-bottom: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
     position: relative;
     @media screen and (min-width: 768px) {
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
         padding-bottom: 22px;
     }
 }
@@ -53,6 +56,7 @@
     }
 }
 .tel__link.footer__tel {
+    
     color: var(--accent-text-color);
 }
 .tel__link.footer__tel:hover {
